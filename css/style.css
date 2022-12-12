@@ -1,0 +1,21 @@
+
+
+.logo-small{
+    width: 65px;
+    height: 40px;
+}
+
+aside{
+    width: 150px;
+    height: calc(100vh - 54px);
+    background-color: #101c30;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.my-aside-top{
+    height: calc(100% - 40px);
+}
+
+.my-aside-bot{
+    min-height: 40px;
+}
