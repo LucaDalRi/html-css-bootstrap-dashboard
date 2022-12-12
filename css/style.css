@@ -19,3 +19,12 @@ aside{
 .my-aside-bot{
     min-height: 40px;
 }
+
+.my-container-main{
+    width: calc(100% - 150px);
+}
+
+.my-header-main{
+    height: 100px;
+    background-color: #3e61e7;
+}
