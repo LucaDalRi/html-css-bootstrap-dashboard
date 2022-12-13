@@ -21,6 +21,9 @@ aside{
 
 .my-container-main{
     width: calc(100% - 150px);
+    height: calc(100vh - 56px);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .my-header-main{
@@ -38,4 +41,23 @@ aside{
 
 #offcanvasExample{
     width: 50%;
+}
+
+
+/* media query */
+
+@media all and (max-width: 992px) {
+    aside{
+        width: 50px;
+    }
+
+    .my-container-main{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .disp-none-sm{
+        display: none;
+    }
 }
