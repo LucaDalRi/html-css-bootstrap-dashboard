@@ -34,13 +34,17 @@ aside{
     width: 100%;
 }
 
-.prova-bordo{
+.bordo-card{
     border: 1px solid lightgray;
     padding: 10px;
 }
 
 #offcanvasExample{
     width: 50%;
+}
+
+.input-group-text{
+    background-color: transparent;
 }
 
 
@@ -60,7 +64,7 @@ aside{
     }
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 575px) {
     .disp-none-sm{
         display: none;
     }
