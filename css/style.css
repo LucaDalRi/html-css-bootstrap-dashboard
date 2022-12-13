@@ -46,12 +46,16 @@ aside{
 
 /* media query */
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
     aside{
         width: 50px;
     }
 
     .my-container-main{
+        width: 100%;
+    }
+
+    #offcanvasExample{
         width: 100%;
     }
 }
