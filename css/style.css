@@ -27,3 +27,11 @@ aside{
     background-color: #3e61e7;
 }
 
+#img-stats{
+    width: 100%;
+}
+
+.prova-bordo{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
