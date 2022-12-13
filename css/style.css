@@ -1,4 +1,11 @@
+a{
+    text-decoration: none;
+    color: unset;
+}
 
+a:hover{
+    color: unset;
+}
 
 .logo-small{
     width: 65px;
@@ -7,7 +14,7 @@
 
 aside{
     width: 150px;
-    height: calc(100vh - 54px);
+    height: calc(100vh - 56px);
     background-color: #101c30;
     background-image: url(../img/sidebar-bg.png);
 }
